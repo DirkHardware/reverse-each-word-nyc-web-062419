@@ -15,14 +15,14 @@
 #   sentarray = sentence.split("")
 #   revarray = sentarray.reverse
 #   revsent = revarray.join
-# end 
+# end
 
 def reverse_each_word(sentence)
   revarray = []
   sentarray = sentence.split(" ")
   sentarray.each do |word|
     revword = word.reverse
-    revarray < revword 
-  end 
+    revarray < revword
+  end
   revarray.join("")
 end
