@@ -1,8 +1,12 @@
 def reverse_each_word(sentence)
-  revsent = []
-  sentence.each do |word|
-    revword = word.reverse
-    revarray << word.reverse
+  revarray = []
+  sentarray = sentence.split("")
+  length = sentarray.length
+  counter = 0
+  length.times do
+    revword = sentarray[counter].reverse
+    revarray << revword
+    counter += 1
   end
   revarray.join("")
 end
