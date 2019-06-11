@@ -11,7 +11,7 @@
 
 def reverse_each_word(sentence)
   sentarray = sentence.split(" ")
-  sentarray.each do |word|
+  sentarray.collect do |word|
     word.reverse
   end
   sentarray.join(" ")
