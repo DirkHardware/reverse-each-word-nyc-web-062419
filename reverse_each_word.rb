@@ -22,7 +22,7 @@ def reverse_each_word(sentence)
   sentarray = sentence.split(" ")
   sentarray.each do |word|
     revword = word.reverse
-    revarray < revword
+    revarray << revword
   end
   revarray.join("")
 end
