@@ -24,5 +24,5 @@ def reverse_each_word(sentence)
     revword = word.reverse
     revarray << revword
   end
-  revarray.join("")
+  revarray.join(" ")
 end
